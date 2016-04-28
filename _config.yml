@@ -78,7 +78,9 @@ navigation:
   - title: Datasets
     url: /datasets/
   - title: Kontak
-    url: /kontak/
+    url: /kontak.html
+  - title: Open Data
+    url: /opendata.html
 
 # Collections
 collections:
