@@ -36,9 +36,12 @@ h2.tengahe{
 .ngisormas{
     padding: 30px;
 }
-
+.container{
+    background: #FFF;
+}
 .sosial-media{
-    padding: 20px 40px 20px 0;
+    border-top: 1px solid #777;
+    padding: 20px 40px 5px 0;
 }
 .details{
     padding: 20px 70px;
