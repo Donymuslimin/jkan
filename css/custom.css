@@ -38,8 +38,11 @@ h2.tengahe{
 }
 
 .titlestd{
-    background: url("../desain/red-bg.jpg") center center no-repeat;
+    background: url("../desain/red-bg2.jpg") center center no-repeat;
     background-size: 100% auto;
     padding: 70px;
+    color: #FFF;
+}
+.titlestd h1, .titlestd h2{
     color: #FFF;
 }
