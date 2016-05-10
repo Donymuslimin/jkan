@@ -36,3 +36,10 @@ h2.tengahe{
 .ngisormas{
     padding: 30px;
 }
+
+.titlestd{
+    background: url("../desain/red-bg.jpg") center center no-repeat;
+    background-size: 100% auto;
+    padding: 70px;
+    color: #FFF;
+}

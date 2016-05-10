@@ -6,6 +6,9 @@ baseurl: http://portaldata.kpu-surabayakota.go.id
 github_client_id: b3e49a2f4d893e6d8282
 gatekeeper_host: https://portaldatakpu.herokuapp.com
 
+# Permalink
+permalink: /404.html
+
 # Categories
 category_list:
   - Agenda DPR
@@ -86,7 +89,7 @@ navigation:
   - title: Aplikasi
     url: /aplikasi.html
   - title: Tentang
-    url: /opendata.html
+    url: /tentang/
 
 # Collections
 collections:
