@@ -1,0 +1,6 @@
+.navbar-brand > img{
+    height: 50px;
+}
+.navbar {
+    min-height: 70px;
+}
