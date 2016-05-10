@@ -30,4 +30,9 @@ h2.tengahe {
 
 h2.tengahe span { 
     padding:0 10px; 
+    text-shadow: 2px 2px gray;
+}
+
+.jumbotron h1, .jumbotron .h1{
+    text-shadow: 2px 2px gray;
 }
