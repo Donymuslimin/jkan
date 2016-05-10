@@ -23,3 +23,12 @@
 h2.tengahe{
     color: #FFF;
 }
+.container .jumbotron a, .container-fluid .jumbotron a{
+    color: #FFF;
+}
+.container .jumbotron a i, .container-fluid .jumbotron a i{
+    color: #FFF;
+}
+.container .jumbotron a:hover, .container-fluid .jumbotron a:hover{
+    text-decoration: none;
+}
