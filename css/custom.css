@@ -14,3 +14,8 @@
 .navbar {
     margin-bottom: 0;
 }
+.container .jumbotron, .container-fluid .jumbotron {
+    background: url("../desain/slide1.jpg") center center no-repeat;
+    background-size: 100% auto;
+    color: #FFF;
+}
