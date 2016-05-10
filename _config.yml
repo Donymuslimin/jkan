@@ -1,5 +1,5 @@
-title: Portal Data KPU Kota Surabaya
-description: Open data portal, powered by Jekyll.
+title: API Pemilu
+description: Open data portal, API Pemilu PERLUDEM
 baseurl: http://portaldata.kpu-surabayakota.go.id
 
 # Authentication
