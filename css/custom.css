@@ -21,18 +21,13 @@
     text-align: center;
 }
 h2.tengahe {
-    width: 100%; 
+    width: 100%;
     text-align: center; 
-    border-bottom: 1px solid #FFF; 
+    border-bottom: 1px solid #FFF;
     line-height: 0.1em;
-    margin: 10px 0 20px; 
+    margin: 10px 0 20px;
 } 
 
 h2.tengahe span { 
     padding:0 10px; 
-    text-shadow: 2px 2px gray;
-}
-
-.jumbotron h1, .jumbotron .h1{
-    text-shadow: 2px 2px gray;
 }
