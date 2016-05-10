@@ -81,7 +81,11 @@ navigation:
     url: /kontak.html
   - title: API Pemilu
     url: /api.html
-  - title: Open Data
+  - title: Komunitas
+    url: /komunitas.html
+  - title: Aplikasi
+    url: /aplikasi.html
+  - title: Tentang
     url: /opendata.html
 
 # Collections
@@ -89,6 +93,9 @@ collections:
   datasets:
     output: true
     permalink: /datasets/:path/
+  blog:
+    output: true
+    permalink: /blog/:path/
   organizations:
     output: false
 
