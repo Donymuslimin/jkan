@@ -75,10 +75,12 @@ category_list:
 
 # Nav bar
 navigation:
-  - title: Datasets
+  - title: Data
     url: /datasets/
   - title: Kontak
     url: /kontak.html
+  - title: API Pemilu
+    url: /api.html
   - title: Open Data
     url: /opendata.html
 

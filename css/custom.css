@@ -4,3 +4,13 @@
 .navbar {
     min-height: 70px;
 }
+.navbar-default .navbar-nav > li > a{
+    padding-top: 23px;
+    font-size: 15px;
+}
+.navbar{
+    box-shadow: 0 7px 15px -5px gray;
+}
+.navbar {
+    margin-bottom: 0;
+}
