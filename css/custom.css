@@ -15,7 +15,7 @@
     margin-bottom: 0;
 }
 .container .jumbotron, .container-fluid .jumbotron {
-    background: url("../desain/slide1.jpg") center center no-repeat;
+    background: url("../desain/8331732961_fe76462f03_o.png") center center no-repeat;
     background-size: 100% auto;
     color: #FFF;
     text-align: center;
@@ -46,10 +46,8 @@ h2.tengahe{
     padding: 20px 70px;
 }
 .titlestd{
-    background-image: url("../desain/8331732961_fe76462f03_o.png");
-    background-repeat:no-repeat;
-    background-size:contain;
-    background-position:center;
+    background: url("../desain/red-bg2.jpg") center center no-repeat;
+    background-size: 100% auto;
     padding: 70px;
     color: #FFF;
 }
