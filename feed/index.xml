@@ -16,7 +16,7 @@ layout: nil
     {% for post in site.datasets limit:20 %}
     <entry>
         <title>{{ post.title }}</title>
-        <link href="{{ site.base_url }}/{{ post.title }}"/>
+        <link href="{{ site.base_url }}/datasets/{{ post.title | slugify }}/"/>
         <content type="html">{{ post.notes | xml_escape }}</content>
     </entry>
     {% endfor %}
