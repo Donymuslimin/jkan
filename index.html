@@ -48,10 +48,21 @@ layout: std
 <div class='row'>
     <div class='col-md-3 news-portal'>
         <h2 class='title-news'>Portal Data</h2>
-        <div class='portaldatanews'></div>
+        <div class='portaldatanews'>
+            <ul>
+                {% for org_hash in site.data.app %}
+                {% assign org = org_hash[1] %}
+                <li>
+                    <a href="{{ org.url }}">
+                        {{ org.title }}
+                    </a>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
     </div>
     <div class='col-md-6'>
-        
+
     </div>
     <div class='col-md-3'>
         <form style="border:1px solid #ccc;padding:3px;text-align:center;" action="https://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('https://feedburner.google.com/fb/a/mailverify?uri=go/CkLD', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">
