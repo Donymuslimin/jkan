@@ -50,10 +50,10 @@ layout: std
         <h2 class='title-news'>Portal Data</h2>
         <div class='portaldatanews'>
             <ul>
-                {% for org_hash in site.data.app %}
+                {% for org_hash in site.data.allnews limit:5 %}
                 {% assign org = org_hash[1] %}
                 <li>
-                    <a href="{{ org.url }}">
+                    <a href="{{ org.url }}" target="_blank">
                         {{ org.title }}
                     </a>
                 </li>
@@ -62,7 +62,19 @@ layout: std
         </div>
     </div>
     <div class='col-md-6'>
-
+        <h2 class='title-news'>Aplikasi</h2>
+        <div class='portaldatanews'>
+            <ul>
+                {% for org_hash in site.data.allapps limit:5 %}
+                {% assign org = org_hash[1] %}
+                <li>
+                    <a href="{{ org.url }}" target="_blank">
+                        {{ org.title }}
+                    </a>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
     </div>
     <div class='col-md-3'>
         <h2 class='title-news'>Subscribe Open Data</h2>
