@@ -112,6 +112,16 @@ defaults:
       category: Uncategorized
       organization: N/A
 
+page_gen:
+  - data: 'allapps'
+    template: 'apps'
+    name: 'title'
+    dir: 'dirapps'
+  - data: 'allnews'
+    template: 'news'
+    name: 'title'
+    dir: 'dirnews'
+
 # Markdown settings
 markdown: kramdown
 kramdown:
