@@ -1,6 +1,6 @@
 title: API Pemilu
 description: Open data portal, API Pemilu PERLUDEM
-baseurl: http://portaldata.kpu-surabayakota.go.id
+baseurl: http://portalpemiluapi.org
 
 # Authentication
 github_client_id: b3e49a2f4d893e6d8282
