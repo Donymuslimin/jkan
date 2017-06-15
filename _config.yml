@@ -1,6 +1,6 @@
 title: API Pemilu
 description: Open data portal, API Pemilu PERLUDEM
-baseurl: http://portalpemiluapi.org
+baseurl: http://portalpemiluapi.ga/
 
 # Authentication
 github_client_id: b3e49a2f4d893e6d8282
